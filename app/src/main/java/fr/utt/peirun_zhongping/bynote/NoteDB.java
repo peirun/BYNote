@@ -35,5 +35,27 @@ public class NoteDB extends SQLiteOpenHelper {
 
     }
 
+    public static String getPATH() {
+        return PATH;
+    }
 
+    public static String getCONTENT() {
+        return CONTENT;
+    }
+
+    public static String getID() {
+        return ID;
+    }
+
+    public static String getTableName() {
+        return TABLE_NAME;
+    }
+
+    public static String getTIME() {
+        return TIME;
+    }
+
+    public static String getVIDEO() {
+        return VIDEO;
+    }
 }
